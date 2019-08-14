@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Dewatasoft_ChangeAttributeSet",
+    "type": "magento-module",
+    "license": "OSL-v3.0",
+    "homepage": "",
+    "description": "Dewatasoft Change Attribute Set",
+    "authors": [
+    {
+        "name": "Komang Novayadi",
+        "email": "komang@dewatasoft.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
