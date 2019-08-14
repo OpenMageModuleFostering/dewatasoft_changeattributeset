@@ -1,9 +1,9 @@
 {
     "name": "OpenMageModuleFostering/Dewatasoft_ChangeAttributeSet",
     "type": "magento-module",
-    "license": "Open-Software-License-(OSL)",
+    "license": "GNU-general-public-license",
     "homepage": "",
-    "description": "Possible to change Attribute set in Products grid.",
+    "description": "Change attribute set",
     "authors": [
     {
         "name": "Komang Novayadi",

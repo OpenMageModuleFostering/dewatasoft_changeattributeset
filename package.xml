@@ -1,19 +1,18 @@
 <?xml version="1.0"?>
 <package>
     <name>Dewatasoft_ChangeAttributeSet</name>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <stability>stable</stability>
-    <license uri="http://opensource.org/licenses/osl-3.0.php">Open Software License (OSL)</license>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">GNU general public license</license>
     <channel>community</channel>
     <extends/>
-    <summary>Possible to change Attribute set in Products grid.</summary>
-    <description>Possible to change Attribute set in Products grid.&#xD;
-This developed by Komang Novayadi, before work for Dewatasoft, now already build stand company. Novayadi.Com</description>
-    <notes>This is second realease.</notes>
-    <authors><author><name>Komang Novayadi</name><user>admin</user><email>komang@novayadi.com</email></author></authors>
-    <date>2016-08-30</date>
-    <time>02:06:27</time>
-    <contents><target name="mageetc"><dir name="modules"><file name="Dewatasoft_ChangeAttributeSet.xml" hash="77ddd3155ab19436d50f2f0a4001a473"/></dir></target></contents>
+    <summary>Change attribute set</summary>
+    <description>Default system 'attribute set' must set when adding new products, with this can switch from grid products. </description>
+    <notes>After bug in version 1.0.1 , now we realese 1.0.2 version...</notes>
+    <authors><author><name>Komang Novayadi</name><user>novayadi</user><email>komang@novayadi.com</email></author></authors>
+    <date>2017-02-07</date>
+    <time>22:26:58</time>
+    <contents><target name="mageetc"><dir name="modules"><file name="Dewatasoft_ChangeAttributeSet.xml" hash="77ddd3155ab19436d50f2f0a4001a473"/></dir></target><target name="magecommunity"><dir name="Dewatasoft"><dir name="ChangeAttributeSet"><dir name="Helper"><file name="Data.php" hash="9a0d9d43acee2ba5f6022f14ea8056d5"/></dir><dir name="Model"><file name="Observer.php" hash="a71cfcc19a026782fd18541ee4bc082b"/></dir><dir name="controllers"><dir name="Adminhtml"><dir name="Catalog"><file name="ProductController.php" hash="5f54139de0e08d3da6b53d1ad68b423e"/></dir></dir></dir><dir name="etc"><file name="adminhtml.xml" hash="aa45fb71488fc75b45f1887f02019dc8"/><file name="config.xml" hash="896391526b28fe71b5896f2bfbe15095"/><file name="system.xml" hash="d1c403ce1ebd0e6e528f1f0c75b752b9"/></dir></dir></dir></target></contents>
     <compatible/>
     <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
 </package>
