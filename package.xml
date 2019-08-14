@@ -1,18 +1,19 @@
 <?xml version="1.0"?>
 <package>
     <name>Dewatasoft_ChangeAttributeSet</name>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <stability>stable</stability>
-    <license uri="http://www.opensource.org/licenses/osl-3.0.php">OSL v3.0</license>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">Open Software License (OSL)</license>
     <channel>community</channel>
     <extends/>
-    <summary>Dewatasoft Change Attribute Set</summary>
-    <description>Possible to change Attribute set in Products grid.</description>
-    <notes>Possible to change Attribute set in Products grid.</notes>
-    <authors><author><name>Komang Novayadi</name><user>admin</user><email>komang@dewatasoft.com</email></author></authors>
-    <date>2014-02-18</date>
-    <time>07:22:17</time>
-    <contents><target name="magecommunity"><dir name="Dewatasoft"><dir name="ChangeAttributeSet"><dir name="Helper"><file name="Data.php" hash="9a0d9d43acee2ba5f6022f14ea8056d5"/></dir><dir name="Model"><file name="Observer.php" hash="a71cfcc19a026782fd18541ee4bc082b"/></dir><dir name="controllers"><dir name="Adminhtml"><dir name="Catalog"><file name="ProductController.php" hash="5f54139de0e08d3da6b53d1ad68b423e"/></dir></dir></dir><dir name="etc"><file name="adminhtml.xml" hash="aa45fb71488fc75b45f1887f02019dc8"/><file name="config.xml" hash="ed48dc759d0de02ed7031508b706f283"/><file name="system.xml" hash="38305d6ec0cecf9d617ffdf4653648e2"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Dewatasoft_ChangeAttributeSet.xml" hash="77ddd3155ab19436d50f2f0a4001a473"/></dir></target><target name="magelocale"><dir><dir name="en_US"><file name="Dewatasoft_ChangeAttributeSet.csv" hash="3e2cc470ab2e9f7c58ce32ab37350bae"/></dir></dir></target></contents>
+    <summary>Possible to change Attribute set in Products grid.</summary>
+    <description>Possible to change Attribute set in Products grid.&#xD;
+This developed by Komang Novayadi, before work for Dewatasoft, now already build stand company. Novayadi.Com</description>
+    <notes>This is second realease.</notes>
+    <authors><author><name>Komang Novayadi</name><user>admin</user><email>komang@novayadi.com</email></author></authors>
+    <date>2016-08-30</date>
+    <time>02:06:27</time>
+    <contents><target name="mageetc"><dir name="modules"><file name="Dewatasoft_ChangeAttributeSet.xml" hash="77ddd3155ab19436d50f2f0a4001a473"/></dir></target></contents>
     <compatible/>
     <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
 </package>
