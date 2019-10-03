@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/Dewatasoft_ChangeAttributeSet",
+    "name": "openmage-module-fostering\/dewatasoft_changeattributeset",
     "type": "magento-module",
-    "license": "GNU-general-public-license",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "Change attribute set",
     "authors": [
