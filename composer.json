@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Dewatasoft_ChangeAttributeSet",
+    "name": "OpenMageModuleFostering\/Dewatasoft_ChangeAttributeSet",
     "type": "magento-module",
     "license": "GNU-general-public-license",
     "homepage": "",
     "description": "Change attribute set",
     "authors": [
-    {
-        "name": "Komang Novayadi",
-        "email": "komang@novayadi.com"
-    }
-],
+        {
+            "name": "Komang Novayadi",
+            "email": "komang@novayadi.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
